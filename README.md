@@ -1,2 +1,2 @@
-# plot_ntuple1
-plotting root ntuples 1
+# bdt tests
+converts root datas
