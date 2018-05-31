@@ -12,10 +12,10 @@ with open('roc_test.dat') as f:
         a.append(float(line[0]))
         b.append(float(line[1]))
 
-
+fig = plt.figure()
 plt.scatter(a,b)
 plt.show()
-
+fig.savefig('roc.pdf', bbox_inches='tight')
 
 
 #c = [1,2,3,4,5,6,7,8,9,10]
